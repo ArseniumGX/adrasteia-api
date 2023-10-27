@@ -25,10 +25,16 @@ export class SolicitacaoService {
     });
   }
 
-  update(id: number, data: AprovacaoDto) {
-    return this.prisma.solicitacao.update({
+  async update(id: number, data: AprovacaoDto) {
+    return await this.prisma.solicitacao.update({
       data,
       where: { id },
+    });
+  }
+
+  async findAllPending() {
+    return await this.prisma.solicitacao.findMany({
+      where: { aprovacao: { in: null } },
     });
   }
 }
