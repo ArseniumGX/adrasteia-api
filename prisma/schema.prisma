@@ -14,7 +14,7 @@ model Solicitacao {
   id             Int      @id @default(autoincrement())
   solicitante    String
   descricao      String
-  preco          Float
+  preco          String
   aprovacao      String?
   observacao     String?
   dt_criacao     DateTime @default(now())

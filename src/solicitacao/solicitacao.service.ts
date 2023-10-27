@@ -25,7 +25,10 @@ export class SolicitacaoService {
     });
   }
 
-  update(id: number, aprocavao: AprovacaoDto) {
-    return this.prisma.solicitacao.update({ data: aprocavao, where: { id } });
+  update(id: number, data: AprovacaoDto) {
+    return this.prisma.solicitacao.update({
+      data,
+      where: { id },
+    });
   }
 }
