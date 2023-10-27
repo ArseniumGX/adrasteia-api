@@ -17,6 +17,11 @@ export class SolicitacaoController {
     return this.solicitacaoService.findAll();
   }
 
+  @Get('pendencias')
+  findAllPending() {
+    return this.solicitacaoService.findAllPending();
+  }
+
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.solicitacaoService.findOne(+id);
