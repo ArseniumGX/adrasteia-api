@@ -30,7 +30,7 @@ Com essa primeira configuração, execute o comando abaixo para instalar as depe
 npm install
 ```
 
-ou se utilza yarn
+ou se utiliza yarn
 
 ```sh
 yarn
@@ -42,7 +42,7 @@ Com as dependências instaladas, o comando de criação do banco de dados (certi
 npm run db:generate
 ```
 
-ou se utilza yarn
+ou se utiliza yarn
 
 ```sh
 yarn db:generate
@@ -55,7 +55,7 @@ Após isso, a aplicação já estará pronta para uso. Execute o seguinte comand
 npm run start:dev
 ```
 
-ou se utilza yarn
+ou se utiliza yarn
 
 ```sh
 yarn start:dev
