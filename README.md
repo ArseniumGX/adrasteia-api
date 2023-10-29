@@ -1,4 +1,5 @@
-#Adrasteia API
+# Adrasteia API
+
 Desafio desenvolvido como parte das etapas de seleção a vaga de Desenvolvedor Fullstack Jr na da [Senior](https://www.senior.com.br/).
 O desafio se baseia em uma **Aplicação de fluxo de aprovação para compra de material de escritótio**. O projeto possui três cenarios: Solicitante, Almoxarife e Administrativo.
 O Solicitante é responsável por criar as solicitações de compras de materia, informando obrigatoriamente seu nome, descrição do material e valor. Com a solicitação gerada, o Almoxarife é responsável por analisar a solicitação aberta e decidir se aprova ou reprova. E por fim, o Administrativo é um usuário do setor que pode consultar o fluxo de todas as solicitações realizadas.
@@ -17,6 +18,7 @@ O Solicitante é responsável por criar as solicitações de compras de materia,
 
 - [NestJS](https://nestjs.com/)
 - [Prisma](https://www.prisma.io/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ## Preparando o ambiente
 
